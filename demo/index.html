@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+  <title>aqa-panel demo</title>
+
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+  <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+  <link rel="import" href="../aqa-panel.html">
+
+  <custom-style>
+    <style is="custom-style" include="demo-pages-shared-styles">
+    </style>
+  </custom-style>
+</head>
+
+<body>
+  <div class="vertical-section-container centered">
+    <h3>Basic aqa-panel demo</h3>
+    <demo-snippet>
+      <template>
+        <div style="background:#EEE;padding:10px;">
+          <aqa-panel id="basic">
+            <app-toolbar slot="header">
+              <div main-title>การส่งเอกสาร</div>
+            </app-toolbar>
+            <div slot="content">
+              <div>
+                การจัดส่งเอกสารต้องจัดส่งผ่านแมว โดยแมวจะทำหน้าที่เข้ารหัสเอกสาร เพื่อป้องกันการถูกดักจับข้อมูลของผู้ไหมหวังดี ซึ่งข้อมูลที่ถูกเข้ารหัสแล้วจะอ่านได้แค่เพียงว่า "แม้วๆ แง่งๆ"
+              </div>
+            </div>
+          </aqa-panel>
+        </div>
+
+      </template>
+    </demo-snippet>
+  </div>
+</body>
+
+</html>
